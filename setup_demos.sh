@@ -15,9 +15,9 @@ echo -n "9gV$LkW#q!@7mDz" | sha256sum | awk '{print $1}' > strong.txt
 echo -e "azerty123\n9gV$LkW#q!@7mDz\npassword\n12345678" > dict.txt
 
 # Scénario 3 - Mutation avec des règles
-echo -n "John0101" | md5sum | awk '{print $1}' > rule_test.txt
-echo -n "John0101!" | md5sum | awk '{print $1}' > rule_test2.txt
-echo -n "J0hn0101!" | md5sum | awk '{print $1}' > rule_test3.txt
+echo -n "John0100" | md5sum | awk '{print $1}' > rule_test.txt
+echo -n "John0100!" | md5sum | awk '{print $1}' > rule_test2.txt
+echo -n "J0hn0100!" | md5sum | awk '{print $1}' > rule_test3.txt
 
 # Scénario 4 - Hash salé vs non salé
 
