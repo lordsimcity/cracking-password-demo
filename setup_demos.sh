@@ -6,8 +6,6 @@ sudo apt install -y hashcat hydra whois docker.io docker-compose john
 
 echo "[*] Création des fichiers de démonstration..."
 
-# Scénario 1 - Benchmarks (aucun fichier à créer)
-
 # Scénario 2 - Mots de passe faibles vs forts
 
 echo -n "&#1500;&#1493;&#1500;&#1497;" | sha256sum | awk '{print $1}' > weak.txt
