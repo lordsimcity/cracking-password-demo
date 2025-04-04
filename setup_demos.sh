@@ -2,7 +2,10 @@
 
 echo "[*] Installation des outils nécessaires..."
 sudo apt update
-sudo apt install -y hashcat hydra whois docker.io docker-compose john
+sudo apt install -y hashcat hydra whois docker.io docker-compose john whois
+
+echo "[*] Téléchargement du fichier dict.txt"
+wget -O dict.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 echo "[*] Création des fichiers de démonstration..."
 
