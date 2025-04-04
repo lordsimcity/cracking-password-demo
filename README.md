@@ -2,6 +2,7 @@
 
 Ce projet présente 8 scénarios afin de comprendre les différentes méthodes de craquage de mot de passe.
 Il est possible d'utiliser le script `setup_demos.sh` pour installer les outils nécessaires et générer (ou modifier) les fichiers.
+
 ---
 
 ## Scénario 1 — Comparaison de vitesse entre algorithmes
