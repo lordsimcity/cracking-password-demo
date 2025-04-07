@@ -114,12 +114,12 @@ Tester automatiquement avec des variantes.
 ### Commandes
 
 ```bash
-#création d'un fichier personnalisé
-git clone https://github.com/Mebus/cupp.git
-cd cupp
-python3 cupp.py -i
+#possibilité de créer un fichier personnalisé
+#git clone https://github.com/Mebus/cupp.git
+#cd cupp
+#python3 cupp.py -i
 
-#en se basant sur le fichier généré
+#en se basant sur le fichier généré par défaut
 hashcat -m 0 rule_test.txt cupp/john.txt --force
 
 #en ajoutant des règles
