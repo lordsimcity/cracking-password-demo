@@ -13,7 +13,6 @@ echo "[*] Création des fichiers de démonstration..."
 
 echo -n "&#1500;&#1493;&#1500;&#1497;" | sha256sum | awk '{print $1}' > weak.txt
 echo -n "9gV$LkW#q!@7mDz" | sha256sum | awk '{print $1}' > strong.txt
-echo -e "azerty123\n9gV$LkW#q!@7mDz\npassword\n12345678" > dict.txt
 
 # Scénario 3 - Mutation avec des règles
 echo -n "John0100" | md5sum | awk '{print $1}' > rule_test.txt
